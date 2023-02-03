@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo</title>
+</head>
+<body>
+    <form >
+        <div>
+        <label for="1">username</label>
+        <br>
+        <input id="1" type="text" required placeholder="user" name="user" multiple autofocus>
+        </div>
+        <hr>
+        <div>
+            <label for="2">password</label>
+            <br>
+            <input id="2" type="password" required placeholder="password" minlength="7" name="pass">
+        </div>
+        <hr><div>
+            <label for="3">emeil</label>
+            <br>
+            <input id="3" type="email" placeholder="emeil" name="mail" multiple pattern=".+@gmail.com">
+        </div>
+        <hr><div>
+            <label for="4">tel</label>
+            <br>
+            <input id="4" type="tel"  placeholder="user" name="tel" autocomplete="tel-national" > 
+        </div>
+        <hr><div>
+            <label for="5">subject</label>
+            <br>
+            <input id="5" type="button" placeholder="user" name="sub">
+        </div>
+        <hr>
+        <input type="hidden" value="5545">
+        <input type="submit" value="send data" formaction="index.html">
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+</html>
